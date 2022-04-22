@@ -1,0 +1,133 @@
+h1 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.numbers {
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+p {
+    font-size: 16px;
+    color: #8f99ad;
+    margin-bottom: 25px;
+    line-height: normal;
+}
+h4 {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: normal;
+}
+.subject {
+    border-bottom: 1px solid #b6b7b9;
+    padding-top: 28px;
+}
+a {
+    color: #12171f;
+    font-weight: bold;
+}
+a:-webkit-any-link {
+    text-decoration: none;
+}
+.contact {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.link img{
+    width: 30px;
+    margin-bottom: 41px;
+}
+@media (max-width: 650px) {
+    .table-600 {
+        width: 500px !important;
+    }
+    .table-520 {
+        width: 450px !important;
+    }
+    .item-right p {
+        font-size: 14px;
+    }
+}
+@media (max-width: 550px) {
+    .table-600 {
+        width: 400px !important;
+    }
+    .table-520 {
+        width: 360px !important;
+    }
+    .address {
+        font-size: 14px;
+    }
+    .item-right p {
+        font-size: 12px;
+    }
+    .ether-item {
+        width: 10px;
+    }
+}
+@media (max-width: 450px) {
+    .table-600 {
+        width: 350px !important;
+    }
+    .table-520 {
+        width: 310px !important;
+    }
+    .item-right p {
+        font-size: 10px;
+    }
+}
+.title {
+    width: 277px;
+}
+.verify {
+    width: 36px;
+    margin-left: 10px;
+}
+.item-left h1{
+    font-size: 18px;
+    font-weight: 900;
+}
+.item-left{
+    width: 68px;
+    font-weight: 900;
+}
+.item-right {
+    margin-left: 60px;
+}
+.item-right p {
+    margin: 0;
+}
+.coin-address {
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px 0 rgba(13, 32, 62, 0.1);
+    margin-bottom: 40px;
+}
+.ether {
+    width: 36px;
+    padding-left: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+    margin: 0;
+}
+.ether-item {
+    width: 60px;
+}
